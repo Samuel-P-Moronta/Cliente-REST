@@ -4,9 +4,6 @@ import com.google.gson.JsonObject;
 import kong.unirest.HttpResponse;
 import kong.unirest.JsonNode;
 import kong.unirest.Unirest;
-/*
-    Autor: Samuel Peña M
-*/
 
 public class RestClient {
     static String url = "http://localhost:7000/api/estudiante/";
