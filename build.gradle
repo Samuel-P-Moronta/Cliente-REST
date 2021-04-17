@@ -12,6 +12,9 @@ mainClassName = 'Logical.Main'
 repositories {
     mavenCentral()
 }
+run{
+    standardInput = System.in
+}
 
 dependencies {
     compile 'io.javalin:javalin:3.13.3'
